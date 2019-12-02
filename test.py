@@ -33,8 +33,32 @@ type(a)
 # print('a和b的值：',a,b)
 
 # d是整型，s是字符串，f是浮点型（默认小数点后6位）
-a = 1
+# 格式化输出：%03d----001    %.2f----75.50
+a = 3
 b =1.5
 print('a的值为%d，b的值为%s'%(a,b))
 print('a的值为{}，b的值为{}'.format(a,b))
 print(f'a的值为{a}，b的值为{b}')
+print('a的值为：%03d'%a)
+print('b的值为：%.2f'%b)
+
+
+
+'''
+tuple：内的值不可以改变
+list：内的值可以改变
+与数组不同的地方：1、括号2、元素类型
+'''
+
+# list = (1,2,3,4,5,6,7,8,9)
+# print(list[-3])
+# print(list[3:8:2])
+
+list1 = range(10)
+list2 = range(1,10)
+list3 = range(1,10,2)
+print(list1,list2,list3)
+
+print(list(range(9)))
+print(list(range(2,9)))
+print(list(range(2,9,3)))
