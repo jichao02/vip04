@@ -13,7 +13,9 @@
 # print(sum)
 
 # 2、求100以内能被3整除的数，并将作为列表输出
-
+'''
+1、实现步骤：判断一个数是否能别3整除，循环100次，如果能整除放在列表中
+'''
 # list = []
 # for n in range(1,101):
 #     if n%3==0:
@@ -30,6 +32,13 @@
 #     if n not in new_list:
 #         new_list.append(n)
 # print(new_list)
+# list = [1,2,3,4,3,4,2,5,5,8,9,7]
+# for num in list:
+#     if list.count(num)>1:
+#         list.remove(num)
+# print(list)
+
+
 
 # 4、求斐波那契数列 1 2 3 5 8 13 ……
 # list = []
@@ -41,13 +50,19 @@
 # print(list)
 
 # 5、求10000以内的质数
-list = []
-for n in range(2,101):
-    for m in range(2,n):
-        if n%m==0:
-            break
-    else:
-        list.append(n)
-print(list)
+# list = []
+# for n in range(2,101):
+#     for m in range(2,n):
+#         if n%m==0:
+#             break
+#     else:
+#         list.append(n)
+# print(list)
 
+
+a = 2
+a*=3+3
+# a+=2+3
+
+print(a)
 
